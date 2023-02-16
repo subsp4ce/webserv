@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webserv</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="http://localhost" class="logo">WEBSERV</a>
+			<nav>
+				<ul>
+					<li><a href="http://localhost">Home</a></li>
+					<li><a href="http://localhost/error">Error pages</a></li>
+					<li><a href="http://localhost/redirect">Redirect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<center>
+			<h1>Test error pages</h1>
+		</center>
+		<div class="container">
+            <center>
+                <h2>Custom error page example</h2>
+                <table>
+                <tr>
+                    <td>404 Not Found</td>
+                    <td><a href="http://localhost/doesnotexist">http://localhost/doesnotexist</a></td>
+                </tr>
+                <tr>
+                    <td>405 Not Allowed</td>
+                    <td><a href="http://localhost/notallowed">http://localhost/notallowed</a></td>
+                </tr>
+                </table>
+                <h2>Default error page example</h2>
+                <table>
+                <tr>
+                    <td>403 Forbidden</td>
+                    <td><a href="http://localhost/error-pages">http://localhost/error-pages</a></td>
+                </tr>
+                </table>
+            </center>
+		  </div>
+    </body>
+</html>

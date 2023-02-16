@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webserv</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="http://localhost" class="logo">WEBSERV</a>
+			<nav>
+				<ul>
+					<li><a href="http://localhost">Home</a></li>
+					<li><a href="http://localhost/error">Error pages</a></li>
+					<li><a href="http://localhost/redirect">Redirect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<center>
+			<h1>Delete</h1>
+			<div class="container">
+				<center>
+					<p>curl -X DELETE http://localhost:8080/uploads/pearbutt.jpeg
+					<button onclick="copyToClipboard('curl -X DELETE http\://localhost:8080/uploads/pearbutt.jpeg')">Copy to clipboard</button></p>
+				</center>
+			</div>
+		</center>
+    </body>
+</html>

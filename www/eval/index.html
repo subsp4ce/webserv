@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webserv</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="http://localhost" class="logo">WEBSERV</a>
+			<nav>
+				<ul>
+					<li><a href="http://localhost">Home</a></li>
+					<li><a href="http://localhost/error">Error pages</a></li>
+					<li><a href="http://localhost/redirect">Redirect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<center>
+			<div class="intro">
+			<h1>Welcome!</h1>
+			<p><p>This project is the result of a collaborative effort <br> between <a href="https://github.com/nvanwinden" target="_blank">Nilo van Winden</a> and <a href="https://github.com/nvanwinden" target="_blank">Swaan Miller</a>.</p>
+			<p>Run <b>./webserv config_files/eval.conf</b> to get started.</p>
+			</div>
+		</center>
+		<div class="container">
+			<ul class="image-gallery">
+			  <li>
+				<a href="files/en.subject.pdf" target="_blank">
+					<img src="files/webserv-subject.png" alt="Webserv subject"/>
+				</a>
+				<div class="card-text"><center><span>Webserv subject</span><c/enter></div>
+			  </li>
+			  <li>
+				<a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" target="_blank">
+					<img src="files/status-code-definitions.png" alt="Status Code Definitions"/>
+				</a>				
+				<div class="card-text"><center><span>Status Code Definitions</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:8080" target="_blank">
+					<img src="files/file-upload.png" alt="File upload"/>
+				</a>
+				<div class="card-text"><center><span>POST request / CGI</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:80/hostnames.html">
+					<img src="files/different-host-names.png" alt="Test different host names"/>
+				</a>
+				<div class="card-text"><center><span>Host names</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:8080/uploads">
+					<img src="files/autoindex.png" alt="Directory listing"/>
+				</a>
+				<div class="card-text"><center><span>Directory listing</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:80/delete.html">
+					<img src="files/delete.png" alt="Delete"/>
+				</a>
+				<div class="card-text"><center><span>Delete</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:80/redirect">
+					<img src="files/redirect.png" alt="Redirect"/>
+				</a>
+				<div class="card-text"><center><span>Redirect</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:9000">
+					<img src="files/sayhello.png" alt="Say hello"/>
+				</a>
+				<div class="card-text"><center><span>GET request / CGI</span></center></div>
+			  </li>
+			  <li>
+				<a href="http://localhost:80/unknown.html">
+					<img src="files/unknown.png" alt="Unknown request method"/>
+				</a>
+				<div class="card-text"><center><span>Unknown request</span></center></div>
+			  </li>
+			</ul>
+		  </div>
+    </body>
+</html>

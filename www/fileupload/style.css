@@ -1,0 +1,56 @@
+body {
+
+	background-image: linear-gradient(to right, rgb(177, 238, 255) , white);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+
+	margin-top: 40px;
+}
+
+input {
+
+	font-family: 'Courier New', Courier, monospace;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+
+.upload {
+
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #2e6ad2;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	cursor: pointer;
+}
+
+input[type=file]::file-selector-button {
+
+	font-family: 'Courier New', Courier, monospace;
+	margin-right: 20px;
+	border: none;
+	background: #2e6ad2;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.drop-container {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	color: #444;
+	cursor: pointer;
+}

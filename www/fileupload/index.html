@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>File Upload</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<center>
+			<h1>Upload a file &#x1F4C4;</h1>
+		<div>
+			<label class="drop-container">
+				<form enctype = "multipart/form-data" action = "cgi-bin/fileupload.py" method = "post">
+					<input type="file" name ="file" accept=".txt,.cpp,.hpp,.md,.mD,.MD,.csv,.png,.jpeg,.ico,.gif,.html,.css,.mp4" required/>
+			</label>
+		</div>
+		<div>
+			<input class="upload" type="submit" value="upload"/>
+		</div>
+		</center>	
+	</body>
+</html>	

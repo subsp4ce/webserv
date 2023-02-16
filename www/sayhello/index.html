@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Say Hello!</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<center>
+		<h1>I just came to say hello &#128075;</h1>
+		</center>
+		<div>
+			<form align="center" action="cgi-bin/sayhello.py" method="get">
+				<div>
+				  <label for="say">What greeting do you want to say?</label>
+				  <input name="say" id="say" placeholder="Hi" required>
+				</div>
+				<div>
+				  <label for="to">Who do you want to say it to?</label>
+				  <input name="to" id="to" placeholder="Mom" required>
+				</div>
+				<div>
+				  <button>Send my greetings</button>
+				</div>
+			  </form>
+		</div>
+	</body>
+</html>

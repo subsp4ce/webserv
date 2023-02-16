@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webserv</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="http://localhost" class="logo">WEBSERV</a>
+			<nav>
+				<ul>
+					<li><a href="http://localhost">Home</a></li>
+					<li><a href="http://localhost/error">Error pages</a></li>
+					<li><a href="http://localhost/redirect">Redirect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<center>
+			<h1>Unknown request method</h1>
+		</center>
+		<div class="container">
+            <center>
+                <p>curl -i -X PUT localhost
+                <button onclick="copyToClipboard('curl -i -X PUT localhost')">Copy to clipboard</button></p>
+                <p>Should return <b>501 Not Implemented</b></p>
+            </center>
+		  </div>
+    </body>
+</html>

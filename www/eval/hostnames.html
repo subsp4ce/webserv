@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webserv</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="http://localhost" class="logo">WEBSERV</a>
+			<nav>
+				<ul>
+					<li><a href="http://localhost">Home</a></li>
+					<li><a href="http://localhost/error">Error pages</a></li>
+					<li><a href="http://localhost/redirect">Redirect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<center>
+			<h1>Host names</h1>
+		</center>
+		<div class="container">
+            <center>
+                <p>curl --resolve pineapple.com:80:127.0.0.1 http://pineapple.com
+                <button onclick="copyToClipboard('curl --resolve pineapple.com:80:127.0.0.1 http\://pineapple.com')">Copy to clipboard</button></p>
+                <p>Should return <b>pineapple</b></p>
+                <p>----------</p>
+                <p>curl --resolve orange.com:80:127.0.0.1 http://orange.com
+                <button onclick="copyToClipboard('curl --resolve orange.com:80:127.0.0.1 http\://orange.com')">Copy to clipboard</button></p>
+                <p>Should return <b>orange</b></p>
+                <p>----------</p>
+                <p>curl --resolve strawberry.com:80:127.0.0.1 http://strawberry.com
+                <button onclick="copyToClipboard('curl --resolve strawberry.com:80:127.0.0.1 http\://strawberry.com')">Copy to clipboard</button></p>
+                <p>Should return <b>strawberry</b></p> 
+            </center>
+		  </div>
+    </body>
+</html>
